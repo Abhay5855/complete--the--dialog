@@ -25,3 +25,30 @@ function play(question,answer){
   }
   
 }
+
+var dialogs = [{
+  question:"Our Buisness is ____ buisness, none of your buisness.",
+    a:"our",
+    b:"your",
+    c:"other",
+  answer: "a"
+  },{
+  question:"Raashi ne cooker main se ____ nikal diye, aur khali cooker gas pe chadha diya.",
+    a:"aaloo",
+    b:"channe",
+    c:"chawal",
+  answer: "b"
+},{
+  question:"joey doesn't share ____",
+  a:"fridge",
+  b:"girlfriend",
+  c:"food",
+  answer:"c"
+},{
+  question:"Kaun kambhakt ____ karne ko pita hain!",
+  a:"maze",
+  b:"bardhast",
+  c:"fukat",
+  answer: "b"
+  
+}]
