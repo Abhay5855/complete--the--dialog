@@ -11,6 +11,7 @@ function play(question,answer){
   var userAnswer = readlineSync.question(question);
 
   if (userAnswer === answer){
+    console.log(chalk.green("Sahi jawaab!"))
 
   }
   
