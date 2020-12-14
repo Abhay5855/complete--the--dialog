@@ -9,4 +9,9 @@ console.log(chalk.yellow("Chalo " + gameAnswer + " dialog complete karte hain.")
 
 function play(question,answer){
   var userAnswer = readlineSync.question(question);
+
+  if (userAnswer === answer){
+
+  }
+  
 }
