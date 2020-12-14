@@ -12,6 +12,7 @@ function play(question,answer){
 
   if (userAnswer === answer){
     console.log(chalk.green("Sahi jawaab!"))
+    score++;
 
   }
   
