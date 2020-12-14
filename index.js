@@ -13,8 +13,15 @@ function play(question,answer){
   if (userAnswer === answer){
     console.log(chalk.green("Sahi jawaab!"))
     score++;
-     console.log("Aapka score hain",score)
+    console.log("Aapka score hain",score)
+    console.log("-----------------")
 
+  }
+
+  else {
+    console.log(chalk.red("Maaf kijeye aap galat hain!"))
+    console.log("Aapka score hain",score)
+    console.log("-----------------")
   }
   
 }
