@@ -54,5 +54,6 @@ var dialogs = [{
 }]
 
 for(var i = 0; i < dialogs.length; i++){
-  
+  var currentQuestion = dialogs[i]
+  play(currentQuestion.question,currentQuestion.answer)
 }
