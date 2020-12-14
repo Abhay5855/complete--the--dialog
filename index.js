@@ -52,3 +52,7 @@ var dialogs = [{
   answer: "b"
   
 }]
+
+for(var i = 0; i < dialogs.length; i++){
+  
+}
